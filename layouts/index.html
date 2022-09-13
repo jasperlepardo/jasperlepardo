@@ -1,13 +1,43 @@
 {{ define "main" }}
 
     {{.Content}}
-    <div class="container mx-auto">
-        <section>
-            <h1 class="text-5xl font-bold mb-2">Hi! I'm Jasper, a Designer based in the Philippines.</h1>
-            <p class="text-2xl">I love to solve design problems and isn't afraid to code.</p>    
+
+
+
+
+
+
+    
+    <div class="container mx-auto px-4 md:px-8">
+        <section class="py-20">
+            <div class="pb-12">
+                <h1 class="text-5xl font-bold leading-tight mb-2">Hi! I'm Jasper, a Designer based in the Philippines.</h1>
+                <p class="text-2xl leading-normal mb-4">I love to solve design problems and isn't afraid to code.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div>
+                    <h3 class="text-xl font-bold leading-tight mb-2">Designer</h3>
+                    <p class="leading-normal mb-4">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold leading-tight mb-2">Coder</h3>
+                    <p class="leading-normal mb-4">I enjoy coding my own designs with modern HTML, CSS and basic JavaScript.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold leading-tight mb-2">Thinker</h3>
+                    <p class="leading-normal mb-4">I love solving business problems with design solutions that delights the users.</p>
+                </div>
+            </div>
         </section>
-        <section>
-            <h2 class="text-4xl">My Experience</h2>
+        <section class="py-40">
+            <h2 class="text-4xl font-bold">My Experience</h2>
+            <p>Over the past 8 years, I've designed products and helped tailor experiences for some amazing brands.</p>
+
+            <input type="datetime" class="border-slate-200 placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500"/>
+
+
             <div class="columns-3">
                 <div>
                     1
@@ -35,5 +65,8 @@
                 </div>
             </div>
         </section>
+        <div class="fixed bottom-0">
+            this is fixed bottom
+        </div>
     </div>
 {{ end }}
