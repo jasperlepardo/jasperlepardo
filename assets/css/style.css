@@ -42,7 +42,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: GT-Walsheim-Pro, sans-serif;
   /* 4 */
 }
 
@@ -551,6 +551,114 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .block {
   display: block;
+}
+
+.columns-3 {
+  -moz-columns: 3;
+       columns: 3;
+}
+
+.columns-4 {
+  -moz-columns: 4;
+       columns: 4;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "GT-Walsheim-Pro";
+
+  src: url('/fonts/GT_Walsheim_Pro/GT-Walsheim-Pro-Light.eot'),
+        url('/fonts/GT_Walsheim_Pro/GT-Walsheim-Pro-Light.woff') format("woff"),
+        url('/fonts/GT_Walsheim_Pro/GT-Walsheim-Pro-Light.ttf') format("truetype");
+
+  font-weight: lighter;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT-Walsheim-Pro";
+
+  src: url('/fonts/GT_Walsheim_Pro/GT-Walsheim-Pro-Regular.eot'),
+        url('/fonts/GT_Walsheim_Pro/GT-Walsheim-Pro-Regular.woff') format("woff"),
+        url('/fonts/GT_Walsheim_Pro/GT-Walsheim-Pro-Regular.ttf') format("truetype");
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT-Walsheim-Pro";
+
+  src: url('/fonts/GT_Walsheim_Pro/GT-Walsheim-Pro-Bold.eot'),
+        url('/fonts/GT_Walsheim_Pro/GT-Walsheim-Pro-Bold.woff') format("woff"),
+        url('/fonts/GT_Walsheim_Pro/GT-Walsheim-Pro-Bold.ttf') format("truetype");
+
+  font-weight: bold;
+
+  font-style: normal;
 }

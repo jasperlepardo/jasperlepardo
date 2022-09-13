@@ -2,7 +2,11 @@
 module.exports = {
   content: ["content/**/*.md", "layouts/**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["GT-Walsheim-Pro", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }
