@@ -1,10 +1,10 @@
 ---
-title:
+position:
 company: 
 website:
 location:
-start-date:
-end-date:
+start_date:
+end_date:
 descriptions:
 summary:
 ---
