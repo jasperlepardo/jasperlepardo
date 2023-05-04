@@ -2,15 +2,14 @@
 
     {{.Content}}
 
-    
     <div class="container mx-auto px-4 md:px-8">
+
         <section class="py-20">
             <div class="pb-12">
                 <h1 class="text-5xl font-bold leading-tight mb-2">Hi! I'm Jasper, a Designer based in the Philippines.</h1>
                 <p class="text-2xl leading-normal mb-4">I love to solve design problems and isn't afraid to code.</p>
             </div>
-
-            <div class="grid md:grid-cols-3 gap-6">
+            <div class="grid md:grid-cols-3 gap-10">
                 <div>
                     <h3 class="text-xl font-bold leading-tight mb-2">Designer</h3>
                     <p class="leading-normal mb-4">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
@@ -26,25 +25,45 @@
                 </div>
             </div>
         </section>
-        <section class="py-40">
-            <h2 class="text-4xl font-bold">My Experience</h2>
-            <p>Over the past 8 years, I've designed products and helped tailor experiences for some amazing brands.</p>
 
+        <section class="py-40">
+            <div class="pb-12">
+                <h2 class="text-4xl font-bold">My Experience</h2>
+                <p>Over the past 8 years, I've designed products and helped tailor experiences for some amazing brands.</p>
+            </div>
             {{ range (where .Site.Pages "Section" "experience") }}
-                <div class="grid md:grid-cols-3 gap-6">
-                    {{ range sort .Pages ".Params.start_date" "desc" }}
+                <div class="grid md:grid-cols-3 gap-10">
+                    {{ range sort .Pages ".Params.end_date" "desc" }}
                         <div>
-                            <h3 class="text-xl font-bold leading-tight mb-2">{{ .Params.company }}</h3>
+                            <h3 class="text-xl font-bold leading-tight mb-2"><a href="{{ .Params.website }}" target="_blank">{{ .Params.company }}</a></h3>
                             <p>{{ .Params.position }}</p>
-                            <p>{{ .Params.start_date | time.Format ":date_long" }} to {{ .Params.end_date | time.Format ":date_long" | default "Present" }}</p>
+                            <p class="text-gray-600">{{ .Params.start_date | time.Format ":date_long" }} to {{ if .Params.end_date }}{{ .Params.end_date | time.Format ":date_long" }}{{ else }}{{ "Present" }}{{ end }}</p>
                         </div>
                     {{ end }}
                 </div>
             {{ end }}
-
         </section>
-        <div class="fixed bottom-0">
-            this is fixed bottom
-        </div>
+
+        <section class="py-40">
+            <div class="pb-12">
+                <h2 class="text-4xl font-bold">My Works</h2>
+            </div>
+            {{ range (where .Site.Pages "Section" "projects") }}
+                <div class="grid md:grid-cols-2 gap-10">
+                    {{ range sort .Pages ".Params.end_date" "desc" }}
+                        <div class="border border-gray-300">
+                            <div class="p-4">
+                                <p>{{ .Params.type }}</p>
+                                <h3 class="text-xl font-bold leading-tight mb-2">{{ .Params.name }}</a></h3>
+                                <p>{{ .Params.description }}</p>
+                            </div>
+                        </div>
+                    {{ end }}                    
+                </div>
+            {{ end }}
+        </section>
+
+
+
     </div>
 {{ end }}
