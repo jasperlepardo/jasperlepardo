@@ -1,27 +1,21 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["content/**/*.md", "layouts/**/*.html"],
   theme: {
-    container: {
-      screens: {
-        sm: '576px',
-        md: '768px',
-        lg: '992px',
-        xl: '1200px',
-      },
-      maxWidth: '100%',
-      '@screen sm': {
-        maxWidth: '540px',
-      },
-      '@screen md': {
-        maxWidth: '720px',
-      },
-      '@screen lg': {
-        maxWidth: '960px',
-      },
-      '@screen xl': {
-        maxWidth: '1140px',
-      },
+    fontSize: {
+      xxs: '0.625rem',
+      xs: '0.75rem',
+      sm: '0.875rem',
+      base: '1rem',
+      lg: '1.125rem',
+      xl: '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '2rem',
+      '4xl': '2.25rem',
+      '5xl': '2.5rem',
+      '6xl': '3rem',
+      '7xl': '4rem',      
     },
     extend: {
       fontFamily: {

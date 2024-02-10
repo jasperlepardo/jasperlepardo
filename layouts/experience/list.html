@@ -2,4 +2,16 @@
 
     {{.Content}}
 
+
+    <ul>
+
+        {{ range .Pages }}
+
+        <li> {{ .Params.position }}</li>
+
+        {{ end }}
+    
+    </ul>
+
+
 {{ end }}
