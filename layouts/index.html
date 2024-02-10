@@ -64,7 +64,7 @@
             <div class="pb-12">
                 <h2 class="text-7xl font-bold text-zinc-950 dark:text-zinc-50">My Works.</h2>
             </div>
-            {{ range (where .Site.Pages "Section" "projects") }}
+            {{ range (where .Site.Pages "Section" "project") }}
                 <div class="grid md:grid-cols-2 gap-6">
                     {{ range sort .Pages ".Params.end_date" "desc" }}
                         <div class="col-span-2 bg-zinc-100 dark:bg-zinc-900 rounded-3xl">
