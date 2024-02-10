@@ -1,9 +1,0 @@
----
-name: 
-description: 
-featured:
-type: 
-tags: 
-external-url: 
-prototype-link: 
----
