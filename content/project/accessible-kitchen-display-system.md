@@ -33,8 +33,38 @@ Our kitchen display system shows our line cook what to do and when to do it. The
 
 We run some simulation on our design to know what each user sees depending on the type of their color blindedness.
 
-| Month    | Savings |
-| -------- | ------- |
-| January  | $250    |
-| February | $80     |
-| March    | $420    |
+### Acromatomaly
+
+![](/uploads/Achromatomaly%20vision.png)
+
+### Acromatopsia
+
+![](/uploads/Achromatopsia%20vision.png)
+
+### Deuteranomaly
+
+![](/uploads/Deuteranomaly%20vision.png)
+
+### Deuteranopia
+
+![](/uploads/Deuteranopia%20vision.png)
+
+### Protanomaly
+
+![](/uploads/Protanomaly%20vision.png)
+
+### Protanopia
+
+![](/uploads/Protanopia%20vision.png)
+
+### Tritanomaly
+
+![](/uploads/Tritanomaly%20vision.png)
+
+### Tritanopia
+
+## ![](/uploads/Tritanopia%20vision.png)
+
+## Research
+
+I've done some readings, how other system promote inclusivity in terms of there status. I found a very interesting study done by Trello which relates very much to me. ​​​​​​
