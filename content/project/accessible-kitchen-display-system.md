@@ -15,7 +15,4 @@ tags:
 external-url:
 prototype-link:
 ---
-<div class="container mx-auto px-4 md:px-8">
-  
-![](/uploads/kitchen-queueing.png)
-</div>
+<div class="container mx-auto px-4 md:px-8"><p><img alt="" src="/uploads/kitchen-queueing.png" /></p></div>
