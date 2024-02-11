@@ -1,7 +1,7 @@
 ---
 title: 
 description: 
-featured:
+featured: false
 type: 
 tags: 
     - Tag 1
