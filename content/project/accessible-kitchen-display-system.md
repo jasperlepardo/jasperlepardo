@@ -18,6 +18,4 @@ bannerURL: /uploads/kitchen-queueing.png
 ---
 ## Problem
 
-We redesigned our whole system,
-
-After deploying the redesigned system. We thought we covered it all. But wait, did we&nbsp;
+As the lead designer for Version 2 of our system, ensuring accessibility for all users was paramount. Following the launch, we identified an oversight: some users faced challenges due to color blindness. This underscored the importance of addressing diverse user needs comprehensively.
