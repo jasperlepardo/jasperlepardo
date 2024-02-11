@@ -60,6 +60,7 @@
             {{ end }}
         </section> -->
 
+
         <section class="py-20">
             <div class="pb-12">
                 <h2 class="text-7xl font-bold text-zinc-950 dark:text-zinc-50">My Works.</h2>
@@ -67,21 +68,55 @@
             {{ range (where .Site.Pages "Section" "project") }}
                 <div class="grid md:grid-cols-2 gap-6">
                     {{ range sort .Pages ".Params.end_date" "desc" }}
-                        <div class="col-span-2 bg-zinc-100 dark:bg-zinc-900 rounded-3xl">
+                        <a class="col-span-2 bg-zinc-100 dark:bg-zinc-900 rounded-3xl" href="{{ .RelPermalink }}">
                             <div class="p-20 flex flex-col gap-6">
                                 <ul>
                                     {{ range $tags := .Params.tags }}
                                         <li class="inline-block text-zinc-500">{{ $tags }}</li>
                                     {{ end }}
                                 </ul>
-                                <h3 class="text-5xl font-bold leading-tight mb-2 text-zinc-800 dark:text-zinc-200">{{ .Params.title }}</a></h3>
+                                <h3 class="text-5xl font-bold leading-tight mb-2 text-zinc-800 dark:text-zinc-200">{{ .Params.title }}</h3>
                                 <p class="text-xl leading-normal text-zinc-600 dark:text-zinc-400">{{ .Params.description }}</p>
                             </div>
-                        </div>
+                        </a>
                     {{ end }}
                 </div>
             {{ end }}
         </section>
 
+        <!-- <section class="py-20">
+            <div class="pb-12">
+                <h2 class="text-7xl font-bold text-zinc-950 dark:text-zinc-50">My Works.</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+
+                {{ $url := "https://api-ap-northeast-1.hygraph.com/v2/clsfco2441k3401up9b27awg9/master" }}
+                {{ $query := "{ projects { id title description featured tag } }" }}
+                
+                {{ $token := "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImdjbXMtbWFpbi1wcm9kdWN0aW9uIn0.eyJ2ZXJzaW9uIjozLCJpYXQiOjE3MDc1MzIzNjUsImF1ZCI6WyJodHRwczovL2FwaS1hcC1ub3J0aGVhc3QtMS5oeWdyYXBoLmNvbS92Mi9jbHNmY28yNDQxazM0MDF1cDliMjdhd2c5L21hc3RlciIsIm1hbmFnZW1lbnQtbmV4dC5ncmFwaGNtcy5jb20iXSwiaXNzIjoiaHR0cHM6Ly9tYW5hZ2VtZW50LWFwLW5vcnRoZWFzdC0xLmh5Z3JhcGguY29tLyIsInN1YiI6ImM5ZGU2NGFiLTE0NjAtNDAwZS1hYzM4LWNkZTY5OGYzNmEzMyIsImp0aSI6ImNsc2Znb2xkejBrY28wMTFhNzFia2JjM2EifQ.ZLFSWQCS55zcHht9noNP9h4AXlUhc8KpidJUXlxbajYNw_4pRqrCKwb0SODtK3vgsz3W2K5LqnoeTC1y8Q2sxeTiUO_vlKxBZNX6JvSPFgSFoHigUW_Gz53crZGneMuva-gqAtIkHn20T-irNzUAaNmr-5NppTFlxAuk-a6dadlJrd8ccN0Ho7wbmkHpVIaTrRGThZfllc0DJYqb9PNVvkH_mHDoUJMMpoY2oT_lDzgn-6G_Xm4LrrTKvIFVRyLohFwcC_A8_8OqsLe4g-KeKdTELsRRgbimPtJq1g7Twd4AkxteW4eKn7UnB4NuqbfTQTJtTRSUMS44C-Hd-F0XFnBgujVWQG3nQrd1w9aA6bxGBj1mAI2yCnMEKtasWjuI8QV-ccPuDm02R_pF4jbb3zAffdZ-_heRcVWk1kI9FE0XuSnS0jiCu3H1O7UWs7y1ac4pSjmWCEBwgAje_gfWR_E7xpmDDqzNk657Bbw6LV3xm8nP7cPlcZfoezDgKZ4pmm2UhKi0Jm-aTMrJnc7XGNjy94hbd5LHxB4PIynIk_1rpDQUWvntRtj8qvbmezlH-qPeiXYTweCzF66B88HcF6ERBHqQLhEAVFO5eFyNmomDo_WhbNBET_s0qDszYB4a-L2jftyfEVq-t-3Z16dJKvZgz5GjQkr1jnizdvJTF5o" }}
+                
+                {{ $options := dict "method" "POST" "headers" (dict "Authorization" (printf "Bearer %s" $token) "Content-Type" "application/json") "body" (printf "{\"query\": \"%s\"}" $query) }}
+                
+                {{ $response := resources.GetRemote $url $options }}
+                {{ with $response.Content | transform.Unmarshal }}
+                    {{ with .data.projects }}
+                        {{ range . }}
+                            <div class="col-span-2 bg-zinc-100 dark:bg-zinc-900 rounded-3xl">
+                                <div class="p-20 flex flex-col gap-6">
+                                    <ul>
+                                        {{ range .tag }}
+                                            <li class="inline-block text-zinc-500">{{ . }}</li>
+                                        {{ end }}
+                                    </ul>
+                                    <h3 class="text-5xl font-bold leading-tight mb-2 text-zinc-800 dark:text-zinc-200">{{ .title }}</h3>
+                                    <p class="text-xl leading-normal text-zinc-600 dark:text-zinc-400">{{ .description }}</p>
+                                </div>
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            </div>
+        </section> -->
     </div>
 {{ end }}
