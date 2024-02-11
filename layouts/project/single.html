@@ -2,21 +2,21 @@
 
     <div class="container mx-auto px-4 md:px-8">
 
-        <article class="prose lg:prose-xl prose-zinc dark:prose-invert">
+        <div class="prose lg:prose-xl prose-zinc dark:prose-invert max-w-full">
 
-            <ul>
+            <ul class="!p-0">
                 {{ range $tags := .Params.tags }}
                     <li class="inline-block text-zinc-500">{{ $tags }}</li> <span class="text-zinc-500 last-of-type:hidden">&#8226</span>
                 {{ end }}
             </ul>
-            <h3 class="text-5xl font-bold leading-tight mb-2 text-zinc-800 dark:text-zinc-200">{{ .Params.title }}</h3>
+            <h1 class="text-6xl font-bold leading-tight mb-2 text-zinc-800 dark:text-zinc-200">{{ .Params.title }}</h1>
             <p class="text-xl leading-normal text-zinc-600 dark:text-zinc-400">{{ .Params.description }}</p>
     
             <img src="{{ .Params.bannerUrl }}" alt=""/>
     
             {{.Content}}
     
-        </article>
+        </div>
 
     </div>
 
