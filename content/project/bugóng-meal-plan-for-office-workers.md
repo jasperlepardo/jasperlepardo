@@ -14,5 +14,5 @@ tags:
     - Mobile App
 external-url:
 prototype-link:
-bannerURL:
+bannerURL: /uploads/Bugong.png
 ---
