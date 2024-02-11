@@ -7,5 +7,5 @@ tags:
     - Tag 1
 external-url: 
 prototype-link: 
-banner-url:
+bannerURL:
 ---

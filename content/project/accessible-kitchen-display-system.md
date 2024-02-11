@@ -14,5 +14,5 @@ tags:
     - Web App
 external-url:
 prototype-link:
-banner-url: /uploads/kitchen-queueing.png
+bannerURL: /uploads/kitchen-queueing.png
 ---
