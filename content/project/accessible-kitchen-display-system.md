@@ -33,38 +33,38 @@ Our kitchen display system shows our line cook what to do and when to do it. The
 
 We run some simulation on our design to know what each user sees depending on the type of their color blindedness.
 
-Acromatomaly
+### Acromatomaly
 
 ![](/uploads/Achromatomaly%20vision.png)
 
-Acromatopsia
+### Acromatopsia
 
 ![](/uploads/Achromatopsia%20vision.png)
 
-Deuteranomaly
+### Deuteranomaly
 
 ![](/uploads/Deuteranomaly%20vision.png)
 
-Deuteranopia
+### Deuteranopia
 
 ![](/uploads/Deuteranopia%20vision.png)
 
-Protanomaly
+### Protanomaly
 
 ![](/uploads/Protanomaly%20vision.png)
 
-Protanopia
+### Protanopia
 
 ![](/uploads/Protanopia%20vision.png)
 
-Tritanomaly
+### Tritanomaly
 
 ![](/uploads/Tritanomaly%20vision.png)
 
-Tritanopia
+### Tritanopia
 
-![](/uploads/Tritanopia%20vision.png)
+## ![](/uploads/Tritanopia%20vision.png)
 
+## Research
 
-
-​​​​​​
+I've done some readings, how other system promote inclusivity in terms of there status. I found a very interesting study done by Trello which relates very much to me. ​​​​​​
