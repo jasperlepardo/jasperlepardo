@@ -8,7 +8,10 @@ description: >
 featured: 'True'
 type:
 tags:
-    - Tag 1
+    - '2023'
+    - CloudEats
+    - Senior Designer
+    - Web
 external-url:
 prototype-link:
 ---
