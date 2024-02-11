@@ -27,4 +27,14 @@ This proposal suggests integrating textures into the design of our system's bann
 
 ## The current experience
 
+Our kitchen display system shows our line cook what to do and when to do it. The cards are color coded depending on it's status. Gray for New orders, Orange for Getting late and red for late and cancelled orders.
+
 ​​​![](/uploads/kitchen-queueing.png)
+
+We run some simulation on our design to know what each user sees depending on the type of their color blindedness.
+
+| Month    | Savings |
+| -------- | ------- |
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
