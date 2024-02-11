@@ -27,43 +27,25 @@ This proposal suggests integrating textures into the design of our system's bann
 
 ## The current experience
 
-Our kitchen display system shows our line cook what to do and when to do it. The cards are color coded depending on it's status. Gray for New orders, Orange for Getting late and red for late and cancelled orders.
-
-​​​![](/uploads/kitchen-queueing.png)
+Our kitchen display system shows our line cook what to do and when to do it. The cards are color coded depending on it's status. Gray for New orders, Orange for Getting late and red for late and cancelled orders.​​​![](/uploads/kitchen-queueing.png)​
 
 We run some simulation on our design to know what each user sees depending on the type of their color blindedness.
 
-### Acromatomaly
-
-![](/uploads/Achromatomaly%20vision.png)
+### Acromatomaly![](/uploads/Achromatomaly%20vision.png)
 
 ### Acromatopsia
 
-![](/uploads/Achromatopsia%20vision.png)
+### ![](/uploads/Achromatopsia%20vision.png)​​Deuteranomaly![](/uploads/Deuteranomaly%20vision.png)
 
-### Deuteranomaly
+### Deuteranopia![](/uploads/Deuteranopia%20vision.png)
 
-![](/uploads/Deuteranomaly%20vision.png)
+### Protanomaly![](/uploads/Protanomaly%20vision.png)
 
-### Deuteranopia
+### Protanopia![](/uploads/Protanopia%20vision.png)
 
-![](/uploads/Deuteranopia%20vision.png)
+### Tritanomaly![](/uploads/Tritanomaly%20vision.png)
 
-### Protanomaly
-
-![](/uploads/Protanomaly%20vision.png)
-
-### Protanopia
-
-![](/uploads/Protanopia%20vision.png)
-
-### Tritanomaly
-
-![](/uploads/Tritanomaly%20vision.png)
-
-### Tritanopia
-
-## ![](/uploads/Tritanopia%20vision.png)
+### Tritanopia![](/uploads/Tritanopia%20vision.png)
 
 ## Research
 
