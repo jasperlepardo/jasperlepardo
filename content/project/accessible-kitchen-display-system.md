@@ -15,3 +15,4 @@ tags:
 external-url:
 prototype-link:
 ---
+![](/uploads/kitchen-queueing.png)
