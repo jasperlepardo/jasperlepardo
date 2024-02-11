@@ -5,7 +5,7 @@ description: >-
     in our mobile and desktop application. Reduce the risks of errors and
     oversights by using a centralized platform, to ensure all necessary
     information and tasks are easily accessible.
-featured: 'true'
+featured: true
 type:
 tags:
     - '2023'
