@@ -25,4 +25,6 @@ Following the recent launch of our redesigned system, celebrations ensued, marki
 
 This proposal suggests integrating textures into the design of our system's banners to enhance accessibility. Textures offer a tactile element that can be perceived through touch or visually, providing an additional means of conveying information beyond color alone. By strategically incorporating textures into our banners, we can ensure that essential messages and visual cues are accessible to all users, regardless of their color vision abilities.&nbsp;
 
-\---
+\*\*\*<br>\---
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
