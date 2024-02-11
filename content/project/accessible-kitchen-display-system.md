@@ -1,5 +1,5 @@
 ---
-title: 'Addressing Color Blindness Accessibility: Use Case Analysis'
+title: Addressing Color Blindness Accessibility
 description: >
     This use case revolves around addressing the accessibility issue related to
     color blindness among our employees. It involves evaluating the current
