@@ -49,13 +49,15 @@ We run some simulation on our design to know what each user sees depending on th
 
 ## Research
 
-I've done some readings, how other system promote inclusivity in terms of there status. I found a very interesting study done by Trello which relates very much to me. ​​​​​​
+I've done some readings, on how other system promote inclusivity in terms of there status. I found a very interesting study done by Trello which relates very much to me. ​​​​​​
 
 ## Expected Outcomes:
 
-1. Improved Accessibility: The integration of textures into banners will enhance accessibility by providing an alternative visual cue that can be perceived by users with color vision deficiencies.
-2. Enhanced User Experience: By prioritizing accessibility, we aim to create a more inclusive and user-friendly experience for all individuals interacting with our system.
-3. Compliance with Accessibility Standards: Ensure compliance with accessibility standards such as WCAG, demonstrating our commitment to providing equitable access to digital resources.
+Improved Accessibility: The integration of textures into banners will enhance accessibility by providing an alternative visual cue that can be perceived by users with color vision deficiencies.
+
+Enhanced User Experience: By prioritizing accessibility, we aim to create a more inclusive and user-friendly experience for all individuals interacting with our system.
+
+Compliance with Accessibility Standards: Ensure compliance with accessibility standards such as WCAG, demonstrating our commitment to providing equitable access to digital resources.
 
 ## Conclusion:
 
