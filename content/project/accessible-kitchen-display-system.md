@@ -33,4 +33,38 @@ Our kitchen display system shows our line cook what to do and when to do it. The
 
 We run some simulation on our design to know what each user sees depending on the type of their color blindedness.
 
-<table><thead><tr><th> </th><th> </th></tr></thead><tbody><tr><td><p>Acromatomaly</p><p><img src="/uploads/Achromatomaly vision.png" /></p></td><td><p>Acromatopsia</p><p><img src="/uploads/Achromatopsia vision.png" /></p></td></tr><tr><td><p>Deuteranomaly</p><p><img src="/uploads/Deuteranomaly vision.png" /></p></td><td><p>Deuteranopia</p><p><img src="/uploads/Deuteranopia vision.png" /></p></td></tr><tr><td><p>Protanomaly</p><p><img src="/uploads/Protanomaly vision.png" /></p></td><td><p>Protanopia</p><p><img src="/uploads/Protanopia vision.png" /></p></td></tr><tr><td><p>Tritanomaly</p><p><img src="/uploads/Tritanomaly vision.png" /></p></td><td><p>Tritanopia</p><p><img src="/uploads/Tritanopia vision.png" /></p></td></tr></tbody></table>
+Acromatomaly
+
+![](/uploads/Achromatomaly%20vision.png)
+
+Acromatopsia
+
+![](/uploads/Achromatopsia%20vision.png)
+
+Deuteranomaly
+
+![](/uploads/Deuteranomaly%20vision.png)
+
+Deuteranopia
+
+![](/uploads/Deuteranopia%20vision.png)
+
+Protanomaly
+
+![](/uploads/Protanomaly%20vision.png)
+
+Protanopia
+
+![](/uploads/Protanopia%20vision.png)
+
+Tritanomaly
+
+![](/uploads/Tritanomaly%20vision.png)
+
+Tritanopia
+
+![](/uploads/Tritanopia%20vision.png)
+
+
+
+​​​​​​
