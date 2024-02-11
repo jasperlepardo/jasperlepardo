@@ -23,4 +23,18 @@ Following the recent launch of our redesigned system, celebrations ensued, marki
 
 ## Proposal
 
-Making&nbsp;
+This proposal suggests integrating textures into the design of our system's banners to enhance accessibility. Textures offer a tactile element that can be perceived through touch or visually, providing an additional means of conveying information beyond color alone. By strategically incorporating textures into our banners, we can ensure that essential messages and visual cues are accessible to all users, regardless of their color vision abilities.&nbsp;
+
+## The current experience
+
+Our kitchen display system shows our line cook what to do and when to do it. The cards are color coded depending on it's status. Gray for New orders, Orange for Getting late and red for late and cancelled orders.
+
+​​​![](/uploads/kitchen-queueing.png)
+
+We run some simulation on our design to know what each user sees depending on the type of their color blindedness.
+
+| Month    | Savings |
+| -------- | ------- |
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
