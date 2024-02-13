@@ -1119,6 +1119,14 @@ video {
   --tw-prose-invert-td-borders: #3f3f46;
 }
 
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -1141,6 +1149,10 @@ video {
 
 .col-span-6 {
   grid-column: span 6 / span 6;
+}
+
+.col-span-12 {
+  grid-column: span 12 / span 12;
 }
 
 .col-start-9 {
@@ -1188,6 +1200,10 @@ video {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-auto {
   height: auto;
 }
@@ -1220,6 +1236,10 @@ video {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1238,6 +1258,10 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-3xl {
@@ -1284,6 +1308,10 @@ video {
   padding: 0px !important;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1292,6 +1320,21 @@ video {
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .pb-12 {
@@ -1304,6 +1347,10 @@ video {
 
 .pb-20 {
   padding-bottom: 5rem;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
 }
 
 .text-2xl {
@@ -1943,9 +1990,34 @@ video {
   .sm\:hidden {
     display: none;
   }
+
+  .sm\:p-9 {
+    padding: 2.25rem;
+  }
+
+  .sm\:py-9 {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+  }
 }
 
 @media (min-width: 768px) {
+  .md\:col-span-5 {
+    grid-column: span 5 / span 5;
+  }
+
+  .md\:col-span-6 {
+    grid-column: span 6 / span 6;
+  }
+
+  .md\:col-span-7 {
+    grid-column: span 7 / span 7;
+  }
+
+  .md\:col-start-7 {
+    grid-column-start: 7;
+  }
+
   .md\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
@@ -1962,9 +2034,53 @@ video {
     padding: 2rem;
   }
 
+  .md\:p-12 {
+    padding: 3rem;
+  }
+
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:order-2 {
+    order: 2;
+  }
+
+  .lg\:order-1 {
+    order: 1;
+  }
+
+  .lg\:col-span-6 {
+    grid-column: span 6 / span 6;
+  }
+
+  .lg\:col-span-4 {
+    grid-column: span 4 / span 4;
+  }
+
+  .lg\:col-span-7 {
+    grid-column: span 7 / span 7;
+  }
+
+  .lg\:col-start-9 {
+    grid-column-start: 9;
+  }
+
+  .lg\:p-20 {
+    padding: 5rem;
+  }
+
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 }
 
