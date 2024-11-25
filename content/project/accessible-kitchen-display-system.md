@@ -1,6 +1,6 @@
 ---
 title: Addressing Color Blindness Accessibility
-description: >
+description:
     This use case revolves around addressing the accessibility issue related to
     color blindness among our employees. It involves evaluating the current
     color coding system, identifying alternatives that are more inclusive, and
